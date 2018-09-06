@@ -29,7 +29,7 @@
 <a name="11"></a>
 ## 1.1 LAB Topology
 
-<img src="http://i.imgur.com/oMIGpiD.png">
+<img src="/img/1.jpg">
 
 <a name="12"></a>
 ## 1.2 IP Planning
