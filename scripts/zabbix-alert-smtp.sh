@@ -11,8 +11,8 @@ from email.Header import Header
 from email.Utils import formatdate
 
 # Mail Account
-MAIL_ACCOUNT = 'shinkenvdc@gmail.com'
-MAIL_PASSWORD = 'passworddaivakhonho'
+MAIL_ACCOUNT = ''
+MAIL_PASSWORD = ''
 
 # Sender Name
 SENDER_NAME = u'Zabbix Alert'
