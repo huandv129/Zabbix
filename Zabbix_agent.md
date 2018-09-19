@@ -43,7 +43,6 @@ Danh sách kiểm tra sau đây được Zabbix agent hỗ trợ.
 |Network|Packets/bytes transfered|
 |		| Errors/dropped packets|
 |		| Collisions|
-
 |CPU|Load average|
 |		|CPU idle/usage|
 |		|CPU utilization data per individual process|
