@@ -49,13 +49,18 @@ Danh sách kiểm tra sau đây được Zabbix agent hỗ trợ.
 |		|CPU utilization data per individual process|
 |Disk|Space free/used|
 |		|Read and write I/O|
-|Service|Process status
-Process memory usage
-Service status (ssh, ntp, ldap, smtp, ftp, http, pop, nntp, imap)
-Windows service status
-DNS resolution
-TCP connectivity
-TCP response time|	
+|Service|Process status|
+|		|Process memory usage|
+|		|Service status (ssh, ntp, ldap, smtp, ftp, http, pop, nntp, imap)|
+|		|Windows service status|
+|		|DNS resolution|
+|		|TCP connectivity|
+|		|TCP response time|	
+|File|File size/time|
+||File exists|
+||Checksum|
+||MD5 hash|
+||RegExp search|	
 
 
 
