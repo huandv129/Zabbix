@@ -43,10 +43,19 @@ Danh sách kiểm tra sau đây được Zabbix agent hỗ trợ.
 |Network|Packets/bytes transfered|
 |		| Errors/dropped packets|
 |		| Collisions|
-|------------------|---------------------|
+
 |CPU|Load average|
 |		|CPU idle/usage|
 |		|CPU utilization data per individual process|
+|Disk|Space free/used|
+|		|Read and write I/O|
+|Service|Process status
+Process memory usage
+Service status (ssh, ntp, ldap, smtp, ftp, http, pop, nntp, imap)
+Windows service status
+DNS resolution
+TCP connectivity
+TCP response time|	
 
 
 
