@@ -1,5 +1,7 @@
 ### Tổng quan Zabbix
 
+<img src="/img/29.jpg">
+
 Theo dõi bất kỳ số liệu hiệu suất và sự cố nào có thể xảy ra trong mạng của bạn:
 
 |---------------------|--------------------|-------------------|
