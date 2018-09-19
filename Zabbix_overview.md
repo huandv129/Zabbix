@@ -84,9 +84,9 @@ Theo dõi bất kỳ số liệu hiệu suất và sự cố nào có thể xả
 
 ### Templating
 
-+ Bắt đầu theo dõi tất cả các số liệu ngay lập tức bằng cách sử dụng các out-of-the-box templates
++ Bắt đầu theo dõi tất cả các số liệu ngay lập tức bằng cách sử dụng các out-of-the-box templates.
 
-+ Sao chép và cập nhật hàng loạt các thiết bị mạng tương tự bằng cách sử dụng các templates cấu hình thiết bị
++ Sao chép và cập nhật hàng loạt các thiết bị mạng tương tự bằng cách sử dụng các templates cấu hình thiết bị.
 
 
 
