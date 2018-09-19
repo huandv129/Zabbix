@@ -33,7 +33,8 @@ UserParameter=custom.disks.discovery_python,/usr/local/bin/discover_disk.py
 
 - Khởi động lại zabbix-agent 
 
-```/etc/init.d/zabbix-agent restart
+```
+/etc/init.d/zabbix-agent restart
 ```
 
 #### Thực hiện trên dashbroad 
