@@ -60,17 +60,42 @@ Danh sách kiểm tra sau đây được Zabbix agent hỗ trợ.
 ||Checksum|
 ||MD5 hash|
 ||RegExp search|	
+|Log|Text log|
+||Windows eventlog|
+|Other|System uptime|
+||System time|
+||Users connected|
+||Performance counter (Windows)|	
 
+Xem thêm list support tại đây: https://www.zabbix.com/documentation/3.0/manual/config/items/itemtypes/zabbix_agent
 
+### Extending Zabbix agent
 
+Chức năng mở rộng zabbix agent có thể được mở rộng bằng phương pháp:
 
+* loadable modules
 
+* user parameters
 
+* Zabbix sender 
 
+### Log monitoring
 
+Hỗ trợ cho việc theo dõi các text log và Windows Event Log là một hàm gốc của Zabbix agent, bao gồm hỗ trợ xoay vòng.
 
+Có thể vẽ đồ thị dữ liệu từ các log item, khi các khả năng trích xuất nội dung cụ thể được sử dụng.
 
+Các log được phân tích liên tục bởi Zabbix agent và khi tìm thấy mục tìm kiếm đã xác định, Zabbix server được thông báo và thậm chí có thể thực hiện một số hành động hoặc tự động gửi thông báo tới người dùng hoặc nhóm.
 
+### WMI support
+
+Zabbix agent hỗ trợ tính năng Windows Management Instrumentation (WMI), nâng cao khả năng dễ dàng thu thập và giám sát các thông tin hệ thống thời gian thực và các chỉ số hiệu suất từ ​​ Windows servers và workstations.
+
+Các truy vấn WMI có thể được thực hiện bằng khóa wmi.get [] để lấy ra một chuỗi ký tự, số nguyên hoặc thuộc tính dấu chấm động từ lớp không gian tên WMI được chỉ định.
+
+Để biết thêm thông tin về Windows Management Instrumentation, các lớp có sẵn và các thuộc tính của chúng sẽ thấy tài liệu MSDN(http://msdn.microsoft.com/en-us/library/aa394582(v=vs.85).aspx).
+
+Zabbix agent supports IPv4 and IPv6 addresses.
 
 
 
