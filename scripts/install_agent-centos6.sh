@@ -4,7 +4,7 @@
 
 # Cai dat Zabbix-agent 3.0
 
-# OS: Centos 6.9
+# OS: Centos 7
 
 #####################################
 
