@@ -50,7 +50,7 @@ sed -i "s/COMMIT/-A INPUT -p tcp -m state --state NEW -m tcp --dport 10050 -j AC
 
 echo "COMMIT" >> /etc/sysconfig/iptables
 
-# Khoi dong l?i IPtables
+# Khoi dong lai IPtables
 
 /etc/init.d/iptables restart
 
