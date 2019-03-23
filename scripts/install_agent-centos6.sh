@@ -20,7 +20,7 @@ read ip
 
 echo "Tai goi cai dat Zabbix"
 
-rpm -Uvh http://repo.zabbix.com/zabbix/3.0/rhel/7/x86_64/zabbix-release-3.0-1.el6.noarch.rpm
+rpm -Uvh http://repo.zabbix.com/zabbix/3.0/rhel/7/x86_64/zabbix-agent-3.0.1-1.el7.x86_64.rpm
 
 yum update -y
 
